@@ -1,0 +1,298 @@
+{
+  "restaurants": [
+    {
+      "id": "00001",
+      "name": "Kardeşler Kebap ve Pide",
+      "openhours": "12:00 - 22:00",
+      "image": "kardesler",
+      "menu": [
+        {
+          "id": "00001001",
+          "name": "Adana Kebap",
+          "description": "Pilav ve salata ile servis edilir.",
+          "image": "kebap",
+          "price": 100
+        },
+        {
+          "id": "00001002",
+          "name": "Urfa Kebap",
+          "description": "Pilav ve salata ile servis edilir.",
+          "image": "kebap",
+          "price": 100
+        },
+        {
+          "id": "00001003",
+          "name": "Lahmacun",
+          "description": "Soğan ve maydonoz ile servis edilir.",
+          "image": "lahmacun",
+          "price": 30
+        },
+        {
+          "id": "00001004",
+          "name": "Kuşbaşılı Pide",
+          "description": "Salata ile servis edilir.",
+          "image": "pide2",
+          "price": 90
+        },
+        {
+          "id": "00001005",
+          "name": "Kaşarlı Pide",
+          "description": "Salata ile servis edilir.",
+          "image": "pide1",
+          "price": 80
+        },
+        {
+          "id": "00001006",
+          "name": "Kuşbaşılı Kaşarlı Pide",
+          "description": "Salata ile servis edilir.",
+          "image": "pide1",
+          "price": 100
+        }
+      ]
+    },
+    {
+      "id": "00002",
+      "name": "Handmade Burger",
+      "openhours": "15:00 - 23:59",
+      "image": "handmade",
+      "menu": [
+        {
+          "id": "00002001",
+          "name": "Hamburger",
+          "description": "Domates, marul, turşu, el yapımı sos",
+          "image": "burger1",
+          "price": 110
+        },
+        {
+          "id": "00002002",
+          "name": "Cheeseburger",
+          "description": "Domates, marul, turşu, Cheddar peyniri, el yapımı sos",
+          "image": "burger1",
+          "price": 120
+        },
+        {
+          "id": "00002003",
+          "name": "Texas Burger",
+          "description": "Dana bacon, karamelize soğan, Cheddar peyniri, el yapımı sos",
+          "image": "burger1",
+          "price": 130
+        },
+        {
+          "id": "00002004",
+          "name": "Mushroom Burger",
+          "description": "Karamelize mantar, karamelize soğan, Cheddar peyniri, el yapımı sos",
+          "image": "burger1",
+          "price": 130
+        },
+        {
+          "id": "00002005",
+          "name": "Double Cheeseburger",
+          "description": "İki kat köfte, iki kat Cheddar peyniri, el yapımı sos",
+          "image": "burger2",
+          "price": 160
+        }
+      ]
+    },
+    {
+      "id": "00003",
+      "name": "Pizza Delicious",
+      "openhours": "12:00 - 02:30",
+      "image": "delicious",
+      "menu": [
+        {
+          "id": "00003001",
+          "name": "Margarita (Küçük)",
+          "description": "Mozzarella peyniri, fesleğen, cherry domates",
+          "image": "pizza1",
+          "price": 89.99
+        },
+        {
+          "id": "00003002",
+          "name": "Pepperoni (Küçük)",
+          "description": "Mozzarella peyniri, pepperoni",
+          "image": "pizza2",
+          "price": 99.99
+        },
+        {
+          "id": "00003003",
+          "name": "Sucuklu (Küçük)",
+          "description": "Mozzarella peyniri, sucuk, sarımsak sos",
+          "image": "pizza2",
+          "price": 99.99
+        },
+        {
+          "id": "00003004",
+          "name": "Tavuklu (Küçük)",
+          "description": "Mozzarella peyniri, tavuk parçaları, yeşil biber, soğan",
+          "image": "pizza3",
+          "price": 99.99
+        },
+        {
+          "id": "00003005",
+          "name": "Karışık (Küçük)",
+          "description": "Mozzarella peyniri, sucuk, salam, sosis, yeşil biber, mantar",
+          "image": "pizza4",
+          "price": 109.99
+        },
+        {
+          "id": "00003006",
+          "name": "Margarita (Orta)",
+          "description": "Mozzarella peyniri, fesleğen, cherry domates",
+          "image": "pizza1",
+          "price": 129.99
+        },
+        {
+          "id": "00003007",
+          "name": "Pepperoni (Orta)",
+          "description": "Mozzarella peyniri, pepperoni",
+          "image": "pizza2",
+          "price": 139.99
+        },
+        {
+          "id": "00003008",
+          "name": "Sucuklu (Orta)",
+          "description": "Mozzarella peyniri, sucuk, sarımsak sos",
+          "image": "pizza2",
+          "price": 139.99
+        },
+        {
+          "id": "00003009",
+          "name": "Tavuklu (Orta)",
+          "description": "Mozzarella peyniri, tavuk parçaları, yeşil biber, soğan",
+          "image": "pizza3",
+          "price": 139.99
+        },
+        {
+          "id": "00003010",
+          "name": "Karışık (Orta)",
+          "description": "Mozzarella peyniri, sucuk, salam, sosis, yeşil biber, mantar",
+          "image": "pizza4",
+          "price": 149.99
+        },
+        {
+          "id": "00003011",
+          "name": "Margarita (Büyük)",
+          "description": "Mozzarella peyniri, fesleğen, cherry domates",
+          "image": "pizza1",
+          "price": 189.99
+        },
+        {
+          "id": "00003012",
+          "name": "Pepperoni (Büyük)",
+          "description": "Mozzarella peyniri, pepperoni",
+          "image": "pizza2",
+          "price": 199.99
+        },
+        {
+          "id": "00003013",
+          "name": "Sucuklu (Büyük)",
+          "description": "Mozzarella peyniri, sucuk, sarımsak sos",
+          "image": "pizza2",
+          "price": 199.99
+        },
+        {
+          "id": "00003014",
+          "name": "Tavuklu (Büyük)",
+          "description": "Mozzarella peyniri, tavuk parçaları, yeşil biber, soğan",
+          "image": "pizza3",
+          "price": 199.99
+        },
+        {
+          "id": "00003015",
+          "name": "Karışık (Büyük)",
+          "description": "Mozzarella peyniri, sucuk, salam, sosis, yeşil biber, mantar",
+          "image": "pizza4",
+          "price": 209.99
+        }
+      ]
+    },
+    {
+      "id": "00004",
+      "name": "Elif Ana Ev Yemekleri",
+      "openhours": "09:00 - 20:00",
+      "image": "elifana",
+      "menu": [
+        {
+          "id": "00004001",
+          "name": "Mercimek Çorbası",
+          "image": "corba1",
+          "price": 40
+        },
+        {
+          "id": "00004002",
+          "name": "Ezogelin Çorbası",
+          "image": "corba2",
+          "price": 40
+        },
+        {
+          "id": "00004003",
+          "name": "Kuru Fasülye",
+          "image": "kuru",
+          "price": 50
+        },
+        {
+          "id": "00004004",
+          "name": "Patlıcan Musakka",
+          "image": "yemek",
+          "price": 60
+        },
+        {
+          "id": "00004005",
+          "name": "Dana Kavurma",
+          "image": "yemek",
+          "price": 70
+        },
+        {
+          "id": "00004006",
+          "name": "Pirinç Pilavı",
+          "image": "pilav",
+          "price": 40
+        },
+        {
+          "id": "00004007",
+          "name": "Bulgur Pilavı",
+          "image": "pilav",
+          "price": 40
+        }
+      ]
+    },
+    {
+      "id": "00005",
+      "name": "Yeditepe Börek",
+      "openhours": "06:00 - 15:00",
+      "image": "yeditepe",
+      "menu": [
+        {
+          "id": "00005001",
+          "name": "Peynirli Su Böreği",
+          "image": "borek1",
+          "price": 60
+        },
+        {
+          "id": "00005002",
+          "name": "Kıymalı Kol Böreği",
+          "image": "borek2",
+          "price": 60
+        },
+        {
+          "id": "00005003",
+          "name": "Patatesli Kol Böreği",
+          "image": "borek2",
+          "price": 60
+        },
+        {
+          "id": "00005004",
+          "name": "Kıymalı Boşnak Böreği",
+          "image": "borek2",
+          "price": 60
+        },
+        {
+          "id": "00005005",
+          "name": "Ispanaklı Boşnak Böreği",
+          "image": "borek2",
+          "price": 60
+        }
+      ]
+    }
+  ]
+}
