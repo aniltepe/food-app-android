@@ -5,4 +5,5 @@
     <string name="open_hours">Çalışma Saatleri:</string>
     <string name="empty_cart">Sepetiniz şu an boş</string>
     <string name="confirm_order">Sipariş Onayı</string>
+    <string name="give_order">Sipariş Ver</string>
 </resources>

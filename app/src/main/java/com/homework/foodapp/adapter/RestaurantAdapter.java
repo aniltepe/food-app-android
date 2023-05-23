@@ -1,7 +1,6 @@
 package com.homework.foodapp.adapter;
 
 import android.content.Context;
-import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -41,7 +40,7 @@ public class RestaurantAdapter extends BaseAdapter {
 
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
-        view = inflater.inflate(R.layout.activity_listview, null);
+        view = inflater.inflate(R.layout.item_restaurant, null);
         TextView name = (TextView) view.findViewById(R.id.textView);
         ImageView icon = (ImageView) view.findViewById(R.id.icon);
         name.setText(restaurants.get(i).name);

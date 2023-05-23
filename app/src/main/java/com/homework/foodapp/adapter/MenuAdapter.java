@@ -49,12 +49,13 @@ public class MenuAdapter extends BaseAdapter {
 
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
-        view = inflater.inflate(R.layout.activity_list3view, null);
+        view = inflater.inflate(R.layout.item_product, null);
         TextView name = (TextView) view.findViewById(R.id.menu_text);
         TextView desc = (TextView) view.findViewById(R.id.menu_desc);
         TextView price = (TextView) view.findViewById(R.id.menu_price);
         ImageView icon = (ImageView) view.findViewById(R.id.menu_icon);
         Product product = products.get(i);
+
         name.setText(product.name);
         desc.setText(product.description);
         price.setText(product.price.toString() + "₺");
@@ -65,6 +66,22 @@ public class MenuAdapter extends BaseAdapter {
         TextView quantity = (TextView) view.findViewById(R.id.menu_quantity);
         TextView noofproducts = (TextView) ((Activity) actContext).findViewById(R.id.number_of_products);
         ImageButton removefromcart = (ImageButton) view.findViewById(R.id.remove_from_cart);
+
+        int quant = cart.products.getOrDefault(product, 0);
+        if (quant > 1) {
+            removefromcart.setVisibility(View.VISIBLE);
+            quantity.setVisibility(View.VISIBLE);
+            removefromcart.setImageResource(R.drawable.baseline_remove_24);
+            addtocart.setImageResource(R.drawable.baseline_add_24);
+            quantity.setText(Integer.toString(quant));
+        }
+        else if (quant == 1) {
+            removefromcart.setVisibility(View.VISIBLE);
+            removefromcart.setImageResource(R.drawable.outline_delete_24);
+            quantity.setVisibility(View.VISIBLE);
+            addtocart.setImageResource(R.drawable.baseline_add_24);
+            quantity.setText(Integer.toString(quant));
+        }
         addtocart.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 int curr_quantity = cart.products.getOrDefault(product, 0);
