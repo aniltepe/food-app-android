@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">FoodApp</string>
     <string name="choose_restaurant">Şu An Açık Restoranlar</string>
-    <string name="choose_food">Yemek seçiniz</string>
+    <string name="choose_food"></string>
     <string name="open_hours">Çalışma Saatleri:</string>
+    <string name="empty_cart">Sepetiniz şu an boş</string>
+    <string name="confirm_order">Sipariş Onayı</string>
 </resources>
